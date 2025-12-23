@@ -20,19 +20,22 @@ int main(int)
         return 1;
     }
 
-    int sayac=0,i=0,kod;
+    int sayac=0,kod;
     while(!feof(dfptr))
     {
         fgetc(dfptr);
         sayac++;
     }
     rewind(dfptr);
+
     char karakterler[sayac];
+    sayac=0;
     while (!feof(dfptr))
     {
-        karakterler[i]=fgetc(dfptr);
-        i++;
+        karakterler[sayac]=fgetc(dfptr);
+        sayac++;
     }
+
     while(!feof(kfptr))
     {
         fscanf(kfptr,"%d ",&kod);
