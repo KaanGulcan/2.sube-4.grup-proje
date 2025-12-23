@@ -3,9 +3,9 @@
 int main(void)
 {
     FILE *kfptr,*dfptr,*ofptr;
-    kfptr=fopen("C:\\Users\\Projects\\data\\kodlar.txt.txt","r");
-    dfptr=fopen("C:\\Users\\Projects\\data\\d.txt.txt","r");
-    ofptr=fopen("C:\\Users\\Projects\\data\\orijinal.txt.txt","w");
+    kfptr=fopen("kodlar.txt","r");
+    dfptr=fopen("d.txt","r");
+    ofptr=fopen("orijinal.txt","w");
     int sayac=0,i=0,kod;
     while(!feof(dfptr))
     {
