@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int)
+int main(void)
 {
     FILE *kfptr,*dfptr,*ofptr;
     kfptr=fopen("kodlar.txt","r");
