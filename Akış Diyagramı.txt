@@ -1,0 +1,17 @@
+0- BAŞLA
+1- Kodlar.txt dosyasını aç
+2- d.txt dosyasını aç
+3- Orijinal.txt dosyasını oluştur
+4- i = 0 ata
+5- d.txt dosyasından bir karakter oku
+6- Okunan karakteri karakterler[i] dizisine ata
+7- i < 116 ise 
+	i = i + 1 yap
+	5. adıma git
+8- Kodlar.txt dosyasının sonuna gelinmediyse
+	Bir sayı oku
+	karakterler[kod-1] karakterini al
+	Orijinal.txt dosyasına yaz
+	8. adıma geri dön
+9- Dosyaları kapat
+10- BİTİR
