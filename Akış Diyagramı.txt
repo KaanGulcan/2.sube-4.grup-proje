@@ -1,17 +1,21 @@
-0- BAŞLA
-1- Kodlar.txt dosyasını aç
-2- d.txt dosyasını aç
-3- Orijinal.txt dosyasını oluştur
-4- i = 0 ata
-5- d.txt dosyasından bir karakter oku
-6- Okunan karakteri karakterler[i] dizisine ata
-7- i < 116 ise 
-	i = i + 1 yap
-	5. adıma git
-8- Kodlar.txt dosyasının sonuna gelinmediyse
-	Bir sayı oku
-	karakterler[kod-1] karakterini al
-	Orijinal.txt dosyasına yaz
-	8. adıma geri dön
-9- Dosyaları kapat
-10- BİTİR
+1. BAŞLA
+2. kodlar.txt, d.txt ve orijinal.txt dosyasını aç
+3. dosyaların varlığını kontrol et
+4. sayac = 0 ata
+5. d.txt'den bir karakter oku
+  5.1. sayac'ı 1 arttır.
+  5.2. Eğer d.txt dosyasının sonuna gelmediysen 5. adıma git, geldiysen 6. adımdan devam et
+6. karakterler[sayac] seklinde bir dizi olustur
+7. okuyucuyu satır başına getir
+8. sayac = 0 ata
+9. d.txt'den bir karakter oku
+  9.1. okunan karakteri, karakterler[sayac]'e ata
+  9.2. sayac'ı 1 arttır.
+  9.3. Eğer d.txt dosyasının sonuna gelmediysen 9. adıma git, geldiysen 10. adımdan devam et
+10. kodlar.txt'den bir sayı oku ve kod değişkenine ata
+  10.1. "kod > 0 && kod <= sayac" ise 10.1.1. değilse 10.1.2. adımından devam et
+    10.1.1. orijinal.txt dosyasına karakterler[kod-1] yaz
+    10.1.2. indisin istenen aralıkta olmadığı ile ilgili terminale uyarı yaz
+  10.2 kodlar.txt dosyasının sonuna gelmediysen 10. adıma atla. Geldiysen 11. adımdan devam et
+11. Açılan dosyaları kapat
+12. BİTİR
