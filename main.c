@@ -40,16 +40,17 @@ int main(void)
         sayac++;
     }
 
-    // kodlar.txt dosyasındaki sayısal değerler bitene kadar okur ve sırasıyla her değer için karakterler dizisindeki o karakteri orijinal.txt dosyasına yazar 
+    // kodlar.txt dosyasındaki sayısal değerler bitene kadar okur ve sırasıyla her değer için karakterler dizisindeki o karakteri orijinal.txt dosyasına yazar
     while(!feof(kfptr))
     {
         fscanf(kfptr,"%d ",&kod);
         if(kod > 0 && kod <= sayac) {  // metnin boyutu ile kodun karşılaştırılıp gerekli aralık kontrolünün yapılması
-            fprintf(ofptr,"%c",karakterler[kod-1]);   
+            fprintf(ofptr,"%c",karakterler[kod-1]);
         } else {
             printf("%d indisi bulunmadigi icin atlandi\n", kod);
         }
     }
+    fprintf(ofptr, "\n\n");
 
     // dosya kapam işlemleri
     fclose(kfptr);
