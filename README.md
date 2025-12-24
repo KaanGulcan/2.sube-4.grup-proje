@@ -90,4 +90,6 @@ Projemizin çalışma zamanındaki örnek girdileri ve ekran çıktıları görs
 Kodlara [main.c](https://github.com/KaanGulcan/2.sube-4.grup-proje/blob/main/main.c) dosyasından ulaşabilirsiniz
 
 ### GitHub
+Bu GitHub sayfasına sunum sırasında kolay erişim için QR kod ile erişebilirsiniz
+
 <img width="340" height="340" alt="https___github com_KaanGulcan_2 sube-4 grup-proje_blob_main_README md" src="https://github.com/user-attachments/assets/57a75d46-6a4c-4b93-99a1-f1f12b14fead" />
